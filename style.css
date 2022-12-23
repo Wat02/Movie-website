@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+    color: #FFFEFE;
+}
+
+
+::-webkit-scrollbar {
+  width: 0;
+  }
+
+
+
+header {
+    background-image: url(./img/pexels-cottonbro-studio-8263324.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-bar {
+    padding-top: 20px;
+}
+
+.nav-bar .left-side h1 {
+    color: #E40814;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#button-1 {
+    background-color: #e50914;
+    float: right;
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    line-height: normal;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.text-header {
+    padding-top: 150px;
+    text-align: center;
+}
+
+.text-header .text h1 {
+  color: #FEFEFF;
+  padding-bottom: 10px;
+  font-size: 4.125rem;
+}
+
+.text-header .text h3 {
+    color: #FEFEFF;
+    padding-bottom: 20px;
+}
+
+.text-header .text h5 {
+    color: #FEFEFF;
+    padding-bottom: 20px;
+}
+
+#input-1 {
+   padding: 8px 80px;
+   border-radius: 5px;
+   color: #222323;
+}
+
+#button-2 {
+    padding: 8px 60px;
+    background-color: #E40814;
+    color: #FEFEFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+
+@media (max-width: 767px){
+    #button-2 {
+       margin-top: 20px;
+    }
+}
+
+
+@media (max-width: 767px){
+    #text-header{
+      padding-top: 50px;
+    }
+}
+
+#video {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.Enjoy, .download, .wach-anywhear {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #010100;
+}
+
+.Enjoy .enjoy-movie, .download .download-movies, .wach-anywhear .watch {
+    padding-top: 32%;
+    text-align: center;
+}
+
+.Enjoy .enjoy-movie h1  {
+    font-size: 3.125rem;
+    color: white;
+}
+
+.wach-anywhear .watch  h1 {
+    font-size: 3.125rem;
+    color: white;
+}
+
+.download-movies h1  {
+    font-size: 3.125rem;
+}
+
+#video2 {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.linija-1 {
+    background-color: #222323;
+    height: 5px;
+}
+
+.fotter  {
+    text-align: center;
+}
+
+.fotter h3 {
+    padding-bottom: 50px;
+}
+
+.fotter .section h4 {
+    line-height: 60px;
+}
