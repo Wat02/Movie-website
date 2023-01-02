@@ -16,7 +16,7 @@
     }
 
 header {
-    background-image: url(./img/3.jpg);
+    background-image: url(img/3.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed ;
@@ -224,7 +224,7 @@ header {
 
 
 .banner-1 {
-  background-image: url(./img/4.jpg);
+  background-image: url(img/4.jpg);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
@@ -269,7 +269,7 @@ header {
 
 
 .banner-2 {
-  background-image: url(./img/19.jpg);
+  background-image: url(img/19.jpg);
   background-size: cover;
   height: 100vh;
   background-attachment: fixed;
